@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background: #395659;
+  margin: 0px;
+  color: #011f26;
+}
+
+@media (max-width: 800px) {
+  .link,
+  .header {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+/* h3 {
+  text-align: center;
+} */
+
+.img {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+  background: #6c898c;
+  max-width: 900px;
+  padding: 10px;
+}
+
+.header {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  border-left: 10px solid #f28705;
+  padding: 5px 20px;
+  background: #aabdbf;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #395659;
+}
+
+.description:hover,
+.list:hover,
+.work:hover {
+  background: #f28705;
+  color: #011f26;
+}
+
+.list {
+  margin-top: 10px;
+  border-left: 10px solid #f28705;
+  padding: 5px 20px;
+  background: #aabdbf;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #395659;
+}
+
+.list li {
+  margin: 5px;
+}
+
+.list:hover h3,
+.list:hover li {
+  color: #011f26;
+}
+
+.work {
+  margin-top: 10px;
+  border-left: 10px solid #f28705;
+  padding: 5px 20px;
+  background: #aabdbf;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #395659;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #012e40;
+}
+
+.btn-link:hover {
+  color: lightblue;
+}
+
+.form {
+  color: #395659;
+}
+.form h3 {
+  text-align: center;
+  color: #395659;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  /* margin-right: 20px; */
+  width: 50%;
+  /* width: calc(50%-20px); */
+}
+.form-row .form-group :last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #f28705;
+  padding-inline-end: 15px 0 10px 0;
+  font-family: inherit;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+  background: #aabdbf;
+}
+
+.btn {
+  background: #aabdbf;
+  padding: 0px 15px;
+  cursor: pointer;
+  color: #012e40;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #f28705;
+}
